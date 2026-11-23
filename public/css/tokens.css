@@ -1,0 +1,67 @@
+/* Design tokens: VayuSense Urban Air Quality Intelligence.
+   Light is the default theme; dark is chosen with the toggle.
+   Every colour pair used on the page is checked for WCAG contrast in
+   test/contrast.dom.test.ts, in both themes. */
+:root {
+  --surface-0: #f8fafc;
+  --surface-1: #ffffff;
+  --surface-2: #edf2f7;
+  --ink: #0f172a;
+  --ink-soft: #475569;
+  --accent: #0a6460;
+  --accent-strong: #074845;
+  --on-accent: #ffffff;
+  --field-border: #596579;
+  --field-border-hover: #0f172a;
+  --focus: #0284c7;
+  --error: #b91c1c;
+  --error-bg: #fef2f2;
+  --notice-bg: #fef3c7;
+  --band-good: #15803d;
+  --band-good-bg: #dcfce7;
+  --band-moderate: #854d0e;
+  --band-moderate-bg: #fef9c3;
+  --band-sensitive: #9a3412;
+  --band-sensitive-bg: #ffedd5;
+  --band-unhealthy: #b91c1c;
+  --band-unhealthy-bg: #fee2e2;
+  --band-very-unhealthy: #7e22ce;
+  --band-very-unhealthy-bg: #f3e8ff;
+  --band-hazardous: #881337;
+  --band-hazardous-bg: #ffe4e6;
+
+  --radius: 8px;
+  --space: 1rem;
+  --target: 48px;
+  --font:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
+}
+
+:root[data-theme='dark'] {
+  --surface-0: #0b0f17;
+  --surface-1: #131b26;
+  --surface-2: #1c2736;
+  --ink: #f1f5f9;
+  --ink-soft: #94a3b8;
+  --accent: #2dd4bf;
+  --accent-strong: #5eead4;
+  --on-accent: #04221e;
+  --field-border: #8598ad;
+  --field-border-hover: #f1f5f9;
+  --focus: #38bdf8;
+  --error: #fca5a5;
+  --error-bg: #3b1317;
+  --notice-bg: #362409;
+  --band-good: #4ade80;
+  --band-good-bg: #052e16;
+  --band-moderate: #fde047;
+  --band-moderate-bg: #3a2e05;
+  --band-sensitive: #fb923c;
+  --band-sensitive-bg: #3d1c06;
+  --band-unhealthy: #f87171;
+  --band-unhealthy-bg: #3c1214;
+  --band-very-unhealthy: #c084fc;
+  --band-very-unhealthy-bg: #2e1045;
+  --band-hazardous: #fb7185;
+  --band-hazardous-bg: #3d0c1e;
+}

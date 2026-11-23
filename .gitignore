@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# AI workspace, design specifications, and reference research documents
+ai/
+
+# Build and runtime outputs
+dist/
+.wrangler/
+coverage/
+*.lcov
+worker-configuration.d.ts
+
+# Generated from src/ by scripts/build-assets.mjs (npm run generate)
+public/js/shared/
+public/_headers
+
+# Local environment and secrets
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
