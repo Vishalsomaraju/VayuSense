@@ -1,4 +1,4 @@
-# How Saaf Saans was built with generative AI
+# How VayuSense was built with generative AI
 
 Generative AI was used twice in this project: to build it, and inside it. This
 page records the tools, why each was chosen, the prompts that mattered, how they
